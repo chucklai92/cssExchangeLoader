@@ -1,6 +1,9 @@
 # cssExchangeLoader
 这是一个webpack插件，用来替换css的颜色，方便做主题切换
 
+# 安装方法
+npm i|install (--save-dev) cssexchangeloader
+
 # 使用方法
 在webpack的配置文件中做如下配置：
 
