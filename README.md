@@ -4,6 +4,7 @@
 # 使用方法
 在webpack的配置文件中做如下配置：
 
+```
 {
     test: /(\.css$)|(\.scss$)/,  //只能是css scss或者less文件
     use: [
@@ -17,3 +18,4 @@
         ],
     exclude: [/node_modules/,/loader/] //排除一些没用的目录
 },
+```
